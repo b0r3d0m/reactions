@@ -1,0 +1,24 @@
+{
+  "name": "reactions",
+  "authors": [
+    "b0r3d0m <b0r3d0mness@gmail.com>"
+  ],
+  "description": "",
+  "main": "main.py",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "static/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.1.1",
+    "scrollup": "^2.4.1",
+    "rotate.js": "^1.0.0"
+  }
+}
