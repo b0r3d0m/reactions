@@ -10,6 +10,24 @@ Basically it just saves them to the disk and provides you an easy-to-use web int
 
 ![web interface](http://i.imgur.com/JU89KRR.png)
 
+## Usage ##
+
+* Install :snake: [Python](https://www.python.org/)
+* Install [Bower](https://bower.io/)
+* git clone
+* pip install -r requirements.txt
+
+**Service**
+* cd service
+* vim config.ini
+* crontab -e -> python /path/to/service/main.py &
+
+**Web**
+* cd web
+* bower install
+* vim config.ini
+* python main.py &
+
 ### How can I help? ###
 
 * Fork
