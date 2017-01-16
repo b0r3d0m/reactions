@@ -47,7 +47,7 @@ def index():
 
 def main():
   connect_to_db()
-  app.run()
+  app.run(host=config.host, port=config.port)
 
 
 if __name__ == '__main__':
